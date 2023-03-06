@@ -4,6 +4,7 @@ fn main() {
     let mut input_number: i32;
 
     println!("Die wievielte Fibonacci-Zahl wollen Sie ermitteln? Bitte geben Sie eine Zahl ein: ");
+    
     loop {
         let user_input = get_user_input();
         input_number = convert_number(user_input);
